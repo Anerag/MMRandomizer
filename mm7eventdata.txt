@@ -1,0 +1,13 @@
+# MM7 randomizer event data
+#
+# Please don't touch these unless you know what you're doing.
+
++ name=bard 1                    id=3  group=0  file=global.evt  level=emerald island        offset=0x0049D
++ name=bard 2                    id=3  group=0  file=global.evt  level=emerald island        offset=0x004A9
++ name=oscillation overthruster  id=4  group=1  file=d23.evt     level=the lincoln           offset=0x008C9
++ soul jars 1                    id=1  group=1  file=d07.evt     level=thunderfist mountain  offset=0x0009E
++ soul jars 2                    id=8  group=1  file=d03.evt     level=castle gloaming       offset=0x0016C
++ signet ring                    id=6  group=1  file=mdt14.evt   level=the bandit caves      offset=0x0005A
++ haldar's remains 1             id=2  group=1  file=d02.evt     level=the maze              offset=0x000D7
++ haldar's remains 2             id=2  group=1  file=d02.evt     level=the maze              offset=0x000E3
++ lanter of light                id=1  group=1  file=mdk03.evt   level=barrow ii             offset=0x00084

@@ -1,0 +1,68 @@
+# MM6 randomizer item data
+#
+# This file tells the program what items to randomize.
+
+
+# Quest items
+# -----------
+# Almost all of the quest items. See the disabled items section for the rest.
+
++ name=mordred                     id=400  group=0  file=d10.dlv      level=dragoons' keep              offset=0xA7BB
++ name=hourglass of time           id=433  group=0  file=d18.dlv      level=gharik's forge              offset=0x559F
++ name=sacred chalice              id=434  group=0  file=t4.evt       level=temple of the sun           offset=0x00AE
++ name=ankh                        id=448  group=0  file=d12.dlv      level=silver helm stronghold      offset=0x041B
++ name=candelabra                  id=449  group=0  file=d02.dlv      level=abandoned temple            offset=0x28D7
++ name=crystal of terrax           id=457  group=0  file=d11.dlv      level=corlagon's estate           offset=0x974F
++ name=pearl of putrescence        id=458  group=0  file=d17.dlv      level=lair of the wolf            offset=0x041B
++ name=pearl of purity             id=459  group=0  file=d17.evt      level=lair of the wolf            offset=0x047B
++ name=ethric's skull              id=464  group=0  file=d14.dlv      level=tomb of ethric the mad      offset=0x041B
++ name=chime of harmony            id=475  group=0  file=t1.dlv       level=temple of baa               offset=0x561F
++ name=harp                        id=479  group=0  file=d06.dlv      level=dragoons' caverns           offset=0x7677
++ name=lord kilburn's shield       id=499  group=0  file=outb2.ddm    level=blackshire                  offset=0x4410
++ name=tiger statuette             id=450  group=0  file=outb2.ddm    level=blackshire                  offset=0xA698
++ name=bear statuette              id=451  group=0  file=outb2.ddm    level=blackshire                  offset=0xA6B4
++ name=wolf statuette              id=452  group=0  file=outb2.ddm    level=blackshire                  offset=0xA6D0
++ name=eagle statuette             id=453  group=0  file=outb2.ddm    level=blackshire                  offset=0xA6EC
++ name=dragon statuette            id=454  group=0  file=outb2.ddm    level=blackshire                  offset=0xA708
++ name=dragon claw                 id=455  group=0  file=zddb01.dlv   level=dragon's lair               offset=0x041B
++ name=control cube                id=456  group=0  file=pyramid.dlv  level=tomb of varn                offset=0x24EB
++ name=jeweled egg                 id=480  group=0  file=cd3.dlv      level=castle kriegspire           offset=0x299F
++ name=spider queen's heart        id=481  group=0  file=d02.dlv      level=abandoned temple            offset=0x041B
++ name=dragon tower keys           id=486  group=0  file=d15.dlv      level=icewind keep                offset=0x559F
++ name=snergle's axe               id=498  group=0  file=d05.dlv      level=snergle's caverns           offset=0x041B
++ name=enemies list                id=503  group=0  file=d07.dlv      level=silver helm outpost         offset=0x34C7
++ name=devil plans                 id=506  group=0  file=zdwj02.dlv   level=devil outpost               offset=0x041B
++ name=discharge papers            id=508  group=0  file=d16.dlv      level=warlord's fortress          offset=0xB827
++ name=goblinwatch code            id=543  group=0  file=d01.dlv      level=goblinwatch                 offset=0x13EF
++ name=memory crystal alpha        id=550  group=0  file=t6.evt       level=supreme temple of baa       offset=0x01DA
++ name=memory crystal beta         id=551  group=0  file=cd1.evt      level=castle alamos               offset=0x0287
++ name=memory crystal delta        id=552  group=0  file=cd2.evt      level=castle darkmoor             offset=0x1088
++ name=memory crystal epsilon      id=553  group=0  file=cd3.evt      level=castle kriegspire           offset=0x076F
+
+
+# Keys
+# ----
+# Not quest items, but possibly required to access some.
+
++ name=key to gharik's laboratory  id=487  group=0  file=d07.dlv      level=silver helm outpost         offset=0x13EF
++ name=key to goblinwatch          id=489  group=0  file=global.evt   level=new sorpigal                offset=0x0091
+
+# Optional items
+# --------------
+# These items are not necessary to complete any quest.
+
++ name=flute                       id=478  group=0  file=d06.dlv      level=dragoons' caverns           offset=0x86E3
++ name=horn of ros                 id=435  group=0  file=t8.dlv       level=temple of the snake         offset=0x041B
++ name=diary page                  id=518  group=0  file=d20.dlv      level=caves of the dragon riders  offset=0x660B
+
+
+# Disabled items
+# --------------
+# These items are disabled by default because they are likely to be
+# placed in a way that makes the game unwinnable.
+
+- name=the third eye               id=446  group=0  file=outd3.ddm    level=ironfist                    offset=0x0A73
+- name=tanir's bell                id=461  group=0  file=global.evt   level=ironfist                    offset=0x07B6
+- name=cloak of baa                id=485  group=0  file=global.evt   level=ironfist                    offset=0x1ECA
+- name=letter from zenofex         id=502  group=0  file=t7.dlv       level=superior temple of baa      offset=0x7B87
+- name=ritual of the void          id=544  group=0  file=global.evt   level=ironfist                    offset=0x07F5

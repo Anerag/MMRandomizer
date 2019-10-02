@@ -1,0 +1,18 @@
+# MM6 randomizer event data
+#
+# Please don't touch these unless you know what you're doing.
+
++ name=snergle's door          id=1    group=0 file=d05.evt     level=snergle's caverns      offset=0x0078
++ name=supreme temple crystal  id=1    group=0 file=t6.evt      level=supreme temple of baa  offset=0x01AD
++ name=alamos crystal          id=1    group=0 file=cd1.evt     level=castle alamos          offset=0x0263
++ name=darkmoor crystal 1      id=3    group=0 file=cd2.evt     level=castle darkmoor        offset=0x105D
++ name=darkmoor crystal 2      id=3    group=0 file=cd2.evt     level=castle darkmoor        offset=0x1068
++ name=darkmoor crystal 3      id=6    group=0 file=cd2.evt     level=castle darkmoor        offset=0x10B2
++ name=darkmoor crystal 4      id=6    group=0 file=cd2.evt     level=castle darkmoor        offset=0x10BD
++ name=kriegspire crystal 1    id=3    group=0 file=cd3.evt     level=castle kriegspire      offset=0x0744
++ name=kriegspire crystal 2    id=3    group=0 file=cd3.evt     level=castle kriegspire      offset=0x074F
++ name=kriegspire crystal 3    id=4    group=0 file=cd3.evt     level=castle kriegspire      offset=0x07A3
++ name=kriegspire crystal 4    id=4    group=0 file=cd3.evt     level=castle kriegspire      offset=0x07AE
++ name=chalice cabinet         id=1    group=0 file=t4.evt      level=temple of the sun      offset=0x009D
++ name=pearl of purity wall    id=3    group=0 file=d17.evt     level=lair of the wolf       offset=0x0450
++ name=pearl of purity dialog  id=3    group=0 file=global.evt  level=castle ironfist        offset=0x55A8

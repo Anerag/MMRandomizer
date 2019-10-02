@@ -1,0 +1,68 @@
+# MM7 randomizer item data
+#
+# This file tells the program what items to randomize.
+#
+# Tested with GrayFace patch version 2.3.1
+
+
+# Emerald Island
+# --------------
+
++ name=longbow (cave)               id=43   group=0  file=d28.dlv                          level=the dragon's lair                     offset=0x00EED
++ name=wealthy hat (temple)         id=631  group=0  file=d06.dlv                          level=the temple of the moon                offset=0x0A42B
++ name=wealthy hat (potion guy)     id=631  group=0  file=out01.ddm,global.evt,global.evt  level=emerald island                        offset=0x07E1E,0x008D5,0x008E2
++ name=lute                         id=632  group=0  file=out01.ddm,global.evt,global.evt  level=emerald island                        offset=0x060BA,0x00506,0x0051C
++ name=seashell (chest)             id=635  group=0  file=out01.ddm                        level=emerald island                        offset=0x11A82
++ name=seashell (sally)             id=635  group=0  file=out01.ddm,global.evt             level=emerald island                        offset=0x05D76,0x00590
++ name=floor tile                   id=636  group=0  file=d06.dlv                          level=the temple of the moon                offset=0x03BDB
++ name=contestant's shield          id=658  group=0  file=d28.dlv                          level=the dragon's lair                     offset=0x00F5D
+
+# The rest of the game
+# --------------------
+
++ name=vampire's cape               id=550  group=1  file=d16.dlv                          level=the wine cellar                       offset=0x0166B
++ name=case of soul jars            id=602  group=1  file=d07.dlv,d03.dlv                  level=thunderfist mountain/castle gloaming  offset=0x077BD,0x053AF
++ name=parson's quill               id=603  group=1  file=global.evt                       level=lord markham's manor                  offset=0x0724F
++ name=oscillation overthruster     id=605  group=1  file=d23.evt                          level=the lincoln                           offset=0x008D1
++ name=signet ring                  id=606  group=1  file=mdt14.dlv                        level=the bandit caves                      offset=0x00E07
++ name=letter to faerie king        id=607  group=1  file=global.evt                       level=tularean forest                       offset=0x07292
++ name=letter to lord markham       id=614  group=1  file=global.evt                       level=erathia                               offset=0x07173
++ name=knight statuette             id=617  group=1  file=t03.dlv                          level=temple of the sun                     offset=0x0345F
++ name=eagle statuette              id=618  group=1  file=d19.dlv                          level=grand temple of the moon              offset=0x03BA9
++ name=angel statuette              id=619  group=1  file=d02.dlv                          level=the maze                              offset=0x06685
++ name=angel statue painting        id=621  group=1  file=d37.evt                          level=the haunted mansion                   offset=0x0056C
++ name=archibald ironfist painting  id=622  group=1  file=d33.evt                          level=castle gryphonheart                   offset=0x00827
++ name=roland ironfist painting     id=623  group=1  file=d33.evt                          level=castle gryphonheart                   offset=0x007D3
++ name=vase                         id=624  group=1  file=d18.evt                          level=lord markham's manor                  offset=0x00527
++ name=haldar's remains             id=628  group=1  file=d02.dlv                          level=the maze                              offset=0x051B9
++ name=faerie pipes                 id=633  group=1  file=global.evt                       level=hall under the hill                   offset=0x072FA
++ name=gryphonheart's trumpet       id=634  group=1  file=out04.ddm                        level=the tularean forest                   offset=0x11976
++ name=golem chest                  id=639  group=1  file=out11.ddm                        level=the barrow downs                      offset=0x07CD8
++ name=abbey normal golem head      id=640  group=1  file=out06.ddm                        level=the bracada desert                    offset=0x0C1B8
++ name=golem head                   id=641  group=1  file=out06.ddm                        level=the bracada desert                    offset=0x24CB8
++ name=golem left leg               id=642  group=1  file=out05.ddm                        level=deyja                                 offset=0x09CA0
++ name=golem right leg              id=643  group=1  file=out05.ddm                        level=deyja                                 offset=0x227C4
++ name=golem right arm              id=644  group=1  file=out13.ddm                        level=tatalia                               offset=0x0ED80
++ name=golem left arm               id=645  group=1  file=out14.ddm                        level=avlee                                 offset=0x0E25C
++ name=dragon egg 1                 id=647  group=1  file=mdt12.dlv                        level=the dragon caves                      offset=0x015A5
++ name=dragon egg 2                 id=647  group=1  file=mdt12.dlv                        level=the dragon caves                      offset=0x01615
++ name=lantern of light             id=648  group=1  file=mdk03.dlv                        level=barrow ii                             offset=0x041CD
++ name=worn belt                    id=649  group=1  file=global.evt                       level=avlee                                 offset=0x02094
++ name=arcomage deck                id=651  group=1  file=d21.dlv                          level=white cliff cave                      offset=0x033FB
++ name=colony zod key               id=661  group=1  file=d27.evt                          level=colony zod                            offset=0x0045F
++ name=control cube                 id=675  group=1  file=mdt15.evt,mdt15.evt              level=the small house                       offset=0x0001B,0x00037
++ name=altar piece 1                id=676  group=1  file=t01.dlv                          level=temple of the light                   offset=0x05851
++ name=altar piece 2                id=677  group=1  file=t02.dlv                          level=temple of the dark                    offset=0x03CF1
++ name=riverstride plans            id=705  group=1  file=d31.dlv                          level=fort riverstride                      offset=0x045B7
++ name=letter to hairbaugh          id=716  group=1  file=d29.dlv                          level=castle harmondale                     offset=0x15E7D
++ name=bill of sale                 id=728  group=1  file=out06.ddm                        level=the bracada desert                    offset=0x0C1DC
+
+
+# Disabled items
+# --------------
+# These items are disabled by default because they are likely to be
+# placed in a way that makes the game unwinnable.
+
+- name=longbow (temple)             id=43   group=0  file=d06.dlv                          level=the temple of the moon                offset=0x03923
+- name=elixir                       id=629  group=1  file=d24.dlv                          level=stone city                            offset=0x048AC
+- name=map to evenmorn islands      id=683  group=1  file=d17.dlv                          level=the tidewater caverns                 offset=0x030C7
