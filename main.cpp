@@ -39,7 +39,7 @@ vector<string> read_file(const string &path, bool trim_comments)
 
   if (!file.is_open())
   {
-    printf("couldn't to open file: %s\n", path.c_str());
+    printf("couldn't open file: %s\n", path.c_str());
     return ret;
   }
 
@@ -193,8 +193,8 @@ int main()
   switch (game_index)
   {
     case 1:
-      item_data_file = "mm6itemdata.txt";
-      event_data_file = "mm6eventdata.txt";
+      item_data_file = "mm6itemdata";
+      event_data_file = "mm6eventdata";
       data_dir = "mm6data";
       game_str = "mm6";
       break;
