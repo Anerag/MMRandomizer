@@ -16,3 +16,4 @@
 + name=chalice cabinet         id=1    group=0 file=t4.evt      level=temple of the sun      offset=0x009D
 + name=pearl of purity wall    id=3    group=0 file=d17.evt     level=lair of the wolf       offset=0x0450
 + name=pearl of purity dialog  id=3    group=0 file=global.evt  level=castle ironfist        offset=0x54CE
++ name=prince of thieves  bed  id=3    group=0 file=sewer.evt   level=free haven sewer       offset=0x0070
