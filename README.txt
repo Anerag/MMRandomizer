@@ -4,7 +4,7 @@ Download windows binary: https://laatikko.io/mmrandomizer/index.html
 Might and Magic Randomizer
 -----------------------------
 
-Version 1.4
+Version 1.5
 
 Note: if you get an error like "vcruntime 140_1.dll missing" or so, you will
 need to download and install the Visual C++ 2019 redistributable.
@@ -80,6 +80,7 @@ end up in unreachable locations depending on the configuration.
 
 Changelog
 
+1.5 - MM6 certain NPCs
 1.4 - Better GrayFace patch support
 1.3 - MM7 event fixes, MM6 more items
 1.2 - MM6 monsters

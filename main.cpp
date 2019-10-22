@@ -387,6 +387,35 @@ int main()
     randomized_mons.close();
   }
 
+  string random_npcs = "";
+
+  if (game_str == "mm6")
+  {
+    printf("randomize certain npcs? (y/n)\n> ");
+    getline(cin, random_npcs);
+  }
+
+  if (random_npcs == "y")
+  {
+    const string npcs_path = "mm6npcdata.txt";
+
+    vector<Object> npc_data = read_data(npcs_path);
+    vector<Object> shuffled_npc_data = npc_data;
+
+    shuffle(shuffled_npc_data.begin(), shuffled_npc_data.end(), mt19937_64(seed));
+
+    logfile << "\nrandomized npcs\n";
+
+    for (size_t i = 0; i < shuffled_npc_data.size(); i++)
+    {
+      patch_data(npc_data[i], shuffled_npc_data[i].item_id, 1, data_dir);
+
+      logfile << npc_data[i].level_name << "|  "
+              << npc_data[i].item_name << " <-  "
+              << shuffled_npc_data[i].item_name << "\n";
+    }
+  }
+
   logfile.close();
 
   printf("done! wrote log to: %s\n", logfile_name.c_str());

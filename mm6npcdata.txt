@@ -1,0 +1,10 @@
+# MM6 randomizer npc data
+#
+# This file tells the program what NPCs to randomize.
+
++ name=melody silver      id=11   group=0  file=d07.evt,d07.evt      level=silver helm outpost   offset=0x052D,0x0537
++ name=prince of thieves  id=17   group=0  file=sewer.evt,sewer.evt  level=free haven sewer      offset=0x0076,0x0080
++ name=emmanuel cravitz   id=108  group=0  file=t8.evt,t8.evt        level=temple of the snake   offset=0x02C9,0x02D3
++ name=sherell ivanaveh   id=155  group=0  file=t3.evt,t3.evt        level=temple of tsantsa     offset=0x021F,0x0229
++ name=sharry             id=193  group=0  file=d03.evt,d03.evt      level=shadow guild hideout  offset=0x01C7,0x01D1
++ name=angela dawson      id=195  group=0  file=d02.evt,d02.evt      level=abandoned temple      offset=0x00C6,0x00D0
