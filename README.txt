@@ -1,5 +1,5 @@
 
-Download windows binary: https://laatikko.io/mmrandomizer/index.html
+Download windows binary: https://rekurs.io/mmrandomizer/index.html
 
 Might and Magic Randomizer
 -----------------------------
